@@ -1,0 +1,10 @@
+sklearn
+pyyaml
+requests
+xgboost
+pandas
+#pytest
+#flake8
+#tox
+flask
+gunicorn
