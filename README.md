@@ -11,8 +11,8 @@ https://gstore-pred.herokuapp.com/
 https://revenueprediction.herokuapp.com/
 
 # Size of the data:
-# Train: (903653, 55), 1.4GB
-# test: (804684, 53), 1.25GB
+Train: (903653, 55), 1.4GB
+test: (804684, 53), 1.25GB
 # Data type of features:
 String 30, Integer 12, Decimal 6, Other 6
 # Challenges:
