@@ -5,7 +5,7 @@ The 80/20 rule has proven true for many businesses–only a small percentage of 
 We need to analyze a Google Merchandise Store (also known as GStore, where Google swag is sold) customer dataset to predict revenue per customer. Hopefully, the outcome will be more actionable operational changes and a better use of marketing budgets for those companies who choose to use data analysis on top of GA data.
 
 # **End Goal:** To create an web application that can forecast revenue of the customers.
-# **Single prediction:** 
+# **Single prediction:** This is 
 https://gstore-pred.herokuapp.com/
  
 # **Batch prediction:**
