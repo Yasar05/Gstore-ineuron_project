@@ -1,4 +1,4 @@
-**Overview:**
+**Overview/Problem statement:**
 
 The 80/20 rule has proven true for many businesses–only a small percentage of customers produce most of the revenue. As such, marketing teams are challenged to make appropriate investments in promotional strategies.
 
@@ -22,8 +22,8 @@ Json data, Huge dataset, highly categorical data, takes time for model training 
 XGBoost, Random forest, LightGBM
 # **HyperTuning techniques:**
 RandomSearchCV, HyperOpt, Optuna
-# **Deployment:**
-Flask, MLOps, Heroku
+# **Deployment techniques:**
+Flask, MLOps
 
 
 create env
