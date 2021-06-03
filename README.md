@@ -9,19 +9,39 @@ We need to analyze a Google Merchandise Store (also known as GStore, where Googl
 ![image](https://user-images.githubusercontent.com/75694058/120646851-91ca6b80-c497-11eb-8779-fb8e8f0cddbe.png)
 
  
+# Team Size:
+The team consisted of:
+- 1 Team Lead (Myself)
+- 2 Dev-Ops engineers
+- 2 QA engineers
+- 1 UI developers
+- 1 Data Scientists
+- 5 Interns
+
 # **Size of the data:**
 Train: (903653, 55), 1.4GB
 test: (804684, 53), 1.25GB
 # **Data type of features:**
 String 30, Integer 12, Decimal 6, Other 6
+
+# Failure cases and solutions:
+Major failure case happened in Model Building. the entire team was involved in it and the score we got was not more than 0.30. which was pretty bad.
+We then did several iteration of preprocessing and feature engineering again and again. But things didnt work well. we didnt get any score more than that.
+Finally a simple thing made increased the model performance. The mistake we were doing was spliting the data to train and test , by using train-test-split,
+which was a random split.
+So instead of doing a random split I thought why not we split the data by dates. The latest dates we can use as test data.
+And this simple solution worked well. This scaled out model performance to 0.87, which was pretty good.
+
 # **Challenges:**
 Json data, Huge dataset, highly categorical data, takes time for model training and hyper parameter tuning:
 # **Algorithms used:**
 XGBoost, Random forest, LightGBM
+
 # **HyperTuning techniques:**
 RandomSearchCV, HyperOpt, Optuna
+
 # **Deployment techniques:**
-Flask, MLOps
+Flask, CI/CD pipeline, MLOps
 
 
 create env
