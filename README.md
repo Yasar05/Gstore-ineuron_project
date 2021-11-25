@@ -30,7 +30,9 @@ We then did several iteration of preprocessing and feature engineering again and
 Finally a simple thing made increased the model performance. The mistake we were doing was spliting the data to train and test , by using train-test-split,
 which was a random split.
 So instead of doing a random split I thought why not we split the data by dates. The latest dates we can use as test data.
-And this simple solution worked well. This scaled out model performance to 0.87, which was pretty good.
+And there were minor changes/alteration that need to be done in feature engineering.
+And this simple hack worked well. This scaled out model performance to 0.87, which was pretty good.
+and then we hypertuned the model to get a better performance.
 
 # **Challenges:**
 Json data, Huge dataset, highly categorical data, takes time for model training and hyper parameter tuning:
